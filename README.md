@@ -6,3 +6,7 @@ curl -o- https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/m
 curl -o- https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/other.sh | bash
 curl -o- https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/develop-env.sh | bash
 ```
+## all in one install
+```
+curl -o- https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/all-in-one.sh | bash
+```
