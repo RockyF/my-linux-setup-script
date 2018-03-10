@@ -2,6 +2,8 @@
 
 yum -i install nano
 
+yum -i install git
+
 yum -i install docker
 chkconfig docker on
 echo '{
