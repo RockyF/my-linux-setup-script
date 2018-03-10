@@ -10,3 +10,5 @@ echo '{
   "registry-mirrors": ["https://registry.docker-cn.com"]
 }
 ' > /etc/docker/daemon.json
+
+service docker start
