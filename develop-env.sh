@@ -1,10 +1,10 @@
 #!/bin/bash
 
-yum -i install nano
+yum -y install nano
 
-yum -i install git
+yum -y install git
 
-yum -i install docker
+yum -y install docker
 chkconfig docker on
 echo '{
   "registry-mirrors": ["https://registry.docker-cn.com"]
