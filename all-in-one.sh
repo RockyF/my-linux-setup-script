@@ -18,6 +18,7 @@ systemctl stop firewalld.service
 systemctl disable firewalld.service
 
 #stop selinux
+setenforce 0
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
 
 yum -y install nano
