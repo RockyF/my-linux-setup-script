@@ -1,7 +1,7 @@
 #!/bin/bash
 
 yum -y install nano
-
+yum -y install net-tools
 yum -y install git
 
 yum -y install docker
