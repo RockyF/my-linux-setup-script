@@ -10,3 +10,8 @@ curl -o- https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/d
 ```
 curl -o- https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/all-in-one.sh | bash
 ```
+
+## install nodejs env
+```
+curl -o- https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/nodejs-env.sh | bash
+```
