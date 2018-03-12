@@ -44,4 +44,4 @@ curl https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/nginx
 #curl https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/nginx/info.php > /data/webroot/info.php
 
 docker run --name my-php -d --restart=always -v /data/webroot:/usr/share/nginx/html php:7.1-fpm
-docker run --name my-nginx -d --restart=always -p 80:80 -v /data/webroot:/usr/share/nginx/html -v /data/etc/nginx/conf.d:/etc/nginx/conf.d -v /data/etc/nginx/nginx.conf:/etc/nginx/default.conf -v /data/log/nginx:/var/log/nginx --link my-php:php nginx
+docker run --name my-nginx -d --restart=always -p 80:80 -v /data/webroot:/usr/share/nginx/html -v /data/etc/nginx/conf.d:/etc/nginx/conf.d -v /data/etc/nginx/nginx.conf:/etc/nginx/nginx.conf -v /data/log/nginx:/var/log/nginx --link my-php:php nginx
