@@ -24,6 +24,7 @@ sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
 yum -y install nano
 yum -y install net-tools
 yum -y install git
+yum -y install wget
 
 yum -y install docker
 chkconfig docker on
