@@ -14,9 +14,9 @@ echo '{
 
 service docker start
 
-mkdir /data/webroot -p
-mkdir /data/etc/nginx/conf.d -p
-mkdir /data/log/nginx -p
+mkdir -p /data/webroot
+mkdir -p /data/etc/nginx/conf.d
+mkdir -p /data/log/nginx
 
 curl https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/nginx/nginx.conf > /data/etc/nginx/nginx.conf
 curl https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/nginx/default.conf > /data/etc/nginx/conf.d/default.conf
