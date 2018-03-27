@@ -16,11 +16,6 @@ curl -o- https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/a
 curl -o- https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/nodejs-env.sh | bash
 ```
 
-## install my-mac-httpserver
-```
-curl -o- https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/my-mac-httpserver.sh | bash
-```
-
 ## install my-mac-dev-env.sh
 ```
 curl -o- https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/my-mac-dev-env.sh | bash
