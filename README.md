@@ -20,3 +20,8 @@ curl -o- https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/n
 ```
 curl -o- https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/my-mac-httpserver.sh | bash
 ```
+
+## install my-mac-dev-env.sh
+```
+curl -o- https://raw.githubusercontent.com/RockyF/my-linux-setup-script/master/my-mac-dev-env.sh | bash
+```
