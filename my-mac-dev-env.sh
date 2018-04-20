@@ -62,6 +62,7 @@ then
 	$cmd
 else
 	install_mongodb
+	install_redis
 	install_php
 	install_nginx
 fi
