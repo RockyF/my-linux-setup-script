@@ -15,6 +15,18 @@ install_mongodb(){
 	mongo
 }
 
+#------mysql
+install_mysql(){
+	echo ">>> install mysql"
+
+	mkdir -p $userroot/db/mysql
+
+	docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -d --restart=always \
+	-p 3306:3306 \
+	-v $userroot/db/mysql:/var/lib/mysql \
+	mysql
+}
+
 #------redis
 install_redis(){
 	echo ">>> install redis"
@@ -62,6 +74,7 @@ then
 	$cmd
 else
 	install_mongodb
+	install_mysql
 	install_redis
 	install_php
 	install_nginx
