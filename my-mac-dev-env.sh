@@ -24,6 +24,7 @@ install_mysql(){
 	docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -d --restart=always \
 	-p 3306:3306 \
 	-v $userroot/db/mysql:/var/lib/mysql \
+	-v $userroot/etc/mysql/conf.d:/etc/mysql/conf.d \
 	mysql
 }
 
