@@ -25,7 +25,7 @@ install_mysql(){
 	-p 3306:3306 \
 	-v $userroot/db/mysql:/var/lib/mysql \
 	-v $userroot/etc/mysql/conf.d:/etc/mysql/conf.d \
-	mysql
+	mysql:5.7.22
 }
 
 #------redis
